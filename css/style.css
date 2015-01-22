@@ -13,23 +13,23 @@ width: 245px;
 	
 	margin:100px auto;
 	padding: 20px 20px 9px;
-	
 	background: #9dd2ea;
-	background: linear-gradient(#9dd2ea, #8bceec);
-	border-radius: 3px;
+	background: linear-gradient(#8bceec,#8bceec);
+	border-radius: 10px;
 	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
 }
 .top
 {
 	height: 40px;
 	width: 212px;
-	
+	border-radius: 10px;
 	float: right;
 	
 	padding: 0 10px;
 	
 	background: rgba(0, 0, 0, 0.2);
-	border-radius: 3px;
+	border-radius: 10px;
 	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
 	/*make dimension for the top screen*/
 	font-size: 17px;
@@ -42,6 +42,8 @@ width: 245px;
 }
 .down
 {
+	height: 40px;
+	width: 212px;
 
 }
 #keys
@@ -64,4 +66,80 @@ width: 245px;
 	line-height: 12px;
 	text-align: center;	
 }
+#equal
+{
+	background-color: #ff1493
+   
+}
 
+#sine
+{
+background-color: #ff1493
+   
+}
+#cosine
+{
+background-color: #ff1493
+   
+}
+#sine{
+background-color: #ff1493
+   
+}
+#tane
+{
+background-color: #ff1493
+   
+}
+#x3{
+background-color: #ff1493
+}
+#memory
+{
+background-color: #ff1493	
+}
+#x3{
+	background-color: #ff1493
+}
+#x2{
+	background-color: #ff1493
+}
+.but:hover{
+	background: #ff8c00;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+}
+.but,.clear
+{
+	float: left;
+	position: relative;
+	top: 0;
+	
+	cursor: pointer;
+	
+	width: 66px;
+	height: 36px;
+	
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	
+	margin: 0 7px 11px 0;
+	
+	color: #888;
+	line-height: 36px;
+	text-align: center;
+	
+	/* prevent selection of text inside keys */
+	user-select: none;
+	
+	/* Smoothing out hover and active states using css3 transitions */
+	transition: all 0.2s ease;
+}
+.operator:hover{
+	background: #ff8c00;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
