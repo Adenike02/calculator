@@ -9,52 +9,50 @@
        NikkyCalculator
         </title>
               <body>
-
+               <p> <b> My Calculator <b></p>
                  <div class="calculator">
-                 <div>  <input type ="text" readonly size="18" class="top" value = 0 id="total"></div>
+                 <div >  <input type ="text"class="top" readonly size="18" value ="" id="f"></div>
                  <div class="down" id="keys">
 
                  <table>
                       <tbody>  
                     <tr>
-                           <td>   <input type="button"class="but" value="7" id="number" </td>
-                           <td><input type="button"class="but" value="8" id="number" </td>
-                           <td><input type="button" class="but" value="9" id="number" </td>
-                           <td><input type="button" class="but" value="&times" id="operator" ></td>
-                           <td><input type="button" class="but" value="COS" id="cosine" ></td>
+                           <td><input type="button"class="but" value="7" onclick='a("7")'></td>
+                           <td><input type="button" class="but" value="8"  onclick='a("8")'> </td>
+                           <td><input type="button" class="but" value="9" onclick='a("9")'></td>
+                           <td><input type="button" class="but" value="*" onclick='a("*")'id="operator" ></td>
+                           <td><input type="button" class="but" value="COS" onclick='a("COS")' id="func"></td>
                            
                     </tr>
 
                     <tr>
-                           <td><input type="button" class="but" value="4" id="number" ></td>
-                           <td><input type="button" class="but" value="5" id="number"></td>
-                           <td><input type="button" class="but" value="6" id="number"></td>
-                           <td><input type="button" class="but" value="&radic;" id= "sqrt"></td>
-                           <td><input type="button" class="but" value="TAN" id= "tane"></td>
+                           <td><input type="button" class="but" value="4"onclick='a("4")'></td>
+                           <td><input type="button" class="but" value="5" onclick='a("5")'></td>
+                           <td><input type="button" class="but" value="6" onclick='a("6")'></td>
+                           <td><input type="button" class="but" value="&radic;" onclick='a("sqrt")'></td>
+                           <td><input type="button" class="but" value="TAN" onclick='a("TAN")' id= "func"></td>
                            
                     </tr>
                     <tr>
-                           <td><input type="button"class="but" value="1" id="number" ></td>
-                           <td><input type="button"class="but" value="2" id="number"></td>
-                           <td><input type="button"class="but" value="3" id="number"></td>
-                           <td><input type="button"class="but" value="%" id="number"></td>
-                           <td><input type="button"class="but" value="SIN" id="sine"></td>
+                           <td><input type="button"class="but" value="1" onclick='a("1")' ></td>
+                           <td><input type="button"class="but" value="2" onclick='a("2")'></td>
+                           <td><input type="button"class="but" value="3" onclick='a("3")'></td>
+                           <td><input type="button"class="but" value="SIN" onclick='a("SIN")' id= "func"></td>
                            
                     </tr>
                     <tr>
-                           <td><input type="button"class="but" value="0" id="number"></td>
-                           <td><input type="button"class="but" value="."  id="dot" ></td>
-                           <td><input type="button"class="but" value="+" id="operator" ></td>
-                           <td><input type="button"class="but" value="&divide" id="operator"></td>
-                            <td><input type="button"class="but" value="^" id="x3" </td>
+                           <td><input type="button"class="but" value="0" onclick='a("0")'></td>
+                           <td><input type="button"class="but" value="."  onclick='a(".")'></td>
+                           <td><input type="button"class="but" value="+" onclick='a("+")' id="operator" ></td>
+                           <td><input type="button"class="but" value="&divide" onclick='a("/")'></td>
+                            <td><input type="button"class="but" value="^" onclick='a("^")' id= "func"></td>
                            
                     </tr>
                     <tr>
-                           <td><input type="button"class="but"  value="C" id="clear"></td>
-                           <td><input type="button"class="but" value="x^3" id="x3"></td>
-                           <td><input type="button"class="but" value="-" id="operator" ></td>
-                           <td><input type="button"class="but" value="x^2" id="x2"></td>
-                           <td><input type="button"class="but" value="=" id="equal"></td>
+                           <td><input type="button"class="but"  value="C" onclick='a("C")'></td>
+                           <td><input type="button"class="but" value="-" onclick='a("-")' ></td>
+                           <td><input type="button"class="but" value="log" onclick='a("log")'></td>
+                           <td><input type="button"class="but" value="=" onclick='a("=")'></td>
                            
                     </tr>
           
